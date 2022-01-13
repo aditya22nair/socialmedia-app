@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+}
+
+.app_header{
+  z-index: 100;
+  object-fit: contain;
+  padding-right: 30px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  top: 0;
+  position: sticky;
+  background-color: #e6e6e6;
+}
+
+.App{
+  max-width: 500px;
+  margin:auto;
+  background-color:#e6e6e6;
+}
+
+.signin{
+  display: flex;
+  flex-direction: column;
+}
+
+.modal{
+  margin: 40px;
+}
+
